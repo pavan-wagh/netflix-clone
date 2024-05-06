@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Martel sans', 'sans-serif';
+
+}
+
+body {
+    background-color: black;
+   
+}
+
+.main {
+    background-image: url(Assests/images/bgi.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+
+nav img {
+    width: 130px;
+    height: 50px;
+
+    position: relative;
+    z-index: 10;
+}
+
+nav {
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 62px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 62px);
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Martel sans', 'sans-serif';
+    text-align: center;
+
+
+}
+
+#pa {
+
+
+    padding: 11px 60px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(23, 23, 23, 23);
+
+}
+
+
+.separation {
+    height: 6px;
+    background-color: #4d4b4b;
+}
+
+
+
+
+
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-red {
+    background-color: red;
+}
+
+.btn-red-sm {
+    background-color: red;
+    padding: 5px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+
+.btn-rg {
+    background-color: rgba(23, 23, 23, 23);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90vw;
+    height: 575px;
+    color: white;
+    margin: 50px;
+
+}
+
+.secImg {
+   width: 550px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    width: 555px;
+    position: absolute;
+    top: 90px;
+    right: -4px;
+    z-index: -1;
+}
+
+
+
+.hglt h1 {
+    font-size: 40px;
+}
+
+.hglt p {
+    font-size: 25px;
+}
+
+.secImg2 {
+    
+    position: relative;
+    z-index: 10;
+}
+
+.secImg2 video {
+    position: absolute;
+    top: 55px;
+    left: 105px;
+    z-index: -2;
+
+}
+
+.last h1 {
+    color: white;
+    text-align: center;
+    padding: 45px;
+    font-size: 50px;
+}
+
+
+
+.bx {
+    color: white;
+   width: 1000px;
+    height: 30px;
+    background-color: darkgrey;
+    border: 3px solid gray;
+    margin: auto;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 1000;
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.last{
+    margin-bottom: 80px;
+    margin-left: 30px;
+    width: 100vw;
+}
+
+
+
+
+.foot{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 65px;
+
+    
+    
+}
+
+ .foot ul li {
+    list-style: none;
+ }
+
